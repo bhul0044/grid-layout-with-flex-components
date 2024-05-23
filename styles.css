@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+.site-headerz {
+  text-align: left;
+  padding: 20px;
+}
+
+.emoji-containers {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.emojiss {
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.emojiss h2, .emojiss p, .emojiss a {
+  text-align: left;
+}
+
+.emojiss h2 {
+  margin: 1rem 0 0.5rem 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.emojiss a {
+  text-decoration: none;
+  background-color: #781BAA;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 1rem;
+  align-self: flex-start;
+}
+
+.iconz {
+  font-size: 4rem;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
