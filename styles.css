@@ -4,12 +4,12 @@ body {
   color: #222;
 }
 
-.site-headerz {
+.siteheader {
   text-align: left;
   padding: 20px;
 }
 
-.emoji-containers {
+.emojis {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -17,7 +17,7 @@ body {
   flex-wrap: wrap;
 }
 
-.emojiss {
+.emoji {
   border: 1px solid #222;
   border-radius: 8px;
   padding: 1rem;
@@ -30,26 +30,19 @@ body {
   text-align: left;
 }
 
-.emojiss h2, .emojiss p, .emojiss a {
+.emoji h2, .emoji p, .emoji a {
   text-align: left;
 }
 
-.emojiss h2 {
+.emoji h2 {
   margin: 1rem 0 0.5rem 0;
   border-bottom: 2px solid #ccc;
   white-space: nowrap;
-  
   font-size: 1.5rem; 
   font-weight: bold;
-   
 }
 
-.emojiss a {
- 
-  text-align: left; 
-}
-
-.emojiss a {
+.emoji a {
   text-decoration: none;
   background-color: #781BAA;
   color: white;
@@ -57,11 +50,37 @@ body {
   border-radius: 8px;
   display: inline-block;
   margin-top: 1rem;
-  text-align: left;
 }
 
-.iconz {
+.icon {
   font-size: 4rem;
   display: block;
   margin: 0 auto 1rem auto;
+} */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
 }
+
+.siteheader {
+  text-align: left;
+  padding: 20px;
+}
+
+.emojis {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.emoji {
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 1rem;
+  min-width: 350px;
+  max-width: 400px;
+  flex-gro}
+
